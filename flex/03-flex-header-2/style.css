@@ -13,7 +13,6 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  align-items: center;
 }
 
 .profile-image {
@@ -47,16 +46,24 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0px;
+  display: flex;
+  gap: 16px;
 }
 
 .flex-container-1 {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  flex: 1 1 auto;
+  justify-content: start;
+  gap: 16px;
 }
 
 .flex-container-2 {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  flex: 1 1 auto;
+  justify-content: end;
 }
 
 /*- Everything is centered vertically inside the header.
