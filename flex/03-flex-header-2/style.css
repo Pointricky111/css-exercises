@@ -49,6 +49,16 @@ ul {
   list-style-type: none;
 }
 
+.flex-container-1 {
+  display: flex;
+  flex: 1;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex: 1;
+}
+
 /*- Everything is centered vertically inside the header.
 - There is 8px space between everything and the edge of the header.
 - Items are arranged horizontally as seen in the outcome image.
