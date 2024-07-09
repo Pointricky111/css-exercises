@@ -75,7 +75,7 @@ button.cancel {
 
 .header {
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
 }
 /*- The blue icon is aligned to the left.
 - There is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same).
