@@ -27,7 +27,6 @@ body {
 .container, div {
   margin-bottom: 12px;
 }
-
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -56,6 +55,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  display: flex;
+  flex: 1 0 auto;
 }
 
 button {
@@ -76,10 +77,7 @@ button.cancel {
   color: royalblue;
 }
 
-.close-button {
-  display: flex;
-  flex: 1 0 auto;
-}
+
 /*- The blue icon is aligned to the left.
 - There is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same).
 - There is padding around the edge of the modal.
