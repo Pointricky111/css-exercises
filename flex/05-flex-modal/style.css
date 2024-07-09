@@ -24,9 +24,7 @@ body {
   display: flex;
 }
 
-.container, div {
-  margin-bottom: 12px;
-}
+
 .icon {
   color: royalblue;
   font-size: 26px;
