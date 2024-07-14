@@ -10,9 +10,22 @@ body {
   justify-content: space-between;
 }
 
+ul {
+  display: flex;
+  gap : 15px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  color: #4A4949;
+  text-decoration: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0px 15px 0 15px;
 }
 
 .content {
