@@ -5,10 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
 }
 
 .content {
@@ -17,6 +21,7 @@ body {
 
 .footer {
   display: flex;
+  justify-content: space-between;
 }
 
 img {
