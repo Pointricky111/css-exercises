@@ -7,6 +7,11 @@ body {
   justify-content: space-between;
 }
 
+.card {
+  display: flex;
+  padding: 48px;
+}
+
 .content {
   display: flex;
   flex: 1;
@@ -19,7 +24,8 @@ body {
 
 .container-2 {
   display: flex;
-  flex: 1 1 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .header {
