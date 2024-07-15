@@ -7,9 +7,19 @@ body {
   justify-content: space-between;
 }
 
-.container {
+.content {
   display: flex;
   flex: 1;
+}
+
+.container-1 {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.container-2 {
+  display: flex;
+  flex: 1 1 auto;
 }
 
 .header {
