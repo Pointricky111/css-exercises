@@ -53,7 +53,9 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  padding: 48px;
+  padding: 16px;
+  box-sizing: border-box;
+  width: 330px;
 }
 
 ul {
