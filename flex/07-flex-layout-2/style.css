@@ -5,6 +5,9 @@ body {
 }
 
 .header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
