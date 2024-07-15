@@ -20,8 +20,8 @@ body {
 .container-2 {
   display: flex;
   flex-flow: row wrap;
-  gap: 35px;
-  margin: 50px;
+  gap: 32px;
+  margin: 48px;
 }
 
 .header {
@@ -55,7 +55,7 @@ body {
   display: flex;
   padding: 16px;
   box-sizing: border-box;
-  width: 330px;
+  width: 335px;
 }
 
 ul {
