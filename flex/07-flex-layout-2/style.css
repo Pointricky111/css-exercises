@@ -25,6 +25,8 @@ body {
 .container-2 {
   display: flex;
   flex-wrap: wrap;
+  gap: 35px;
+  margin: 50px;
 }
 
 .header {
